@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>HTML</title>
+  <title>Login Form</title>
   
   <!-- HTML -->
   
@@ -15,7 +15,28 @@
 </head>
 
 <body>
-  <p>Nothing to see here...</p>
+ <div class="main_div">
+  <p>Login Form</p>
+  <div class="social_icons">
+   <a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+   <a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a>
+  </div>
+  <form action="#">
+   <input type="text" class="input_box" placeholder="Email or Phone" Required>
+   <div class"icon"><i class="fas fa-user"></i></div>
+   <input type="password" class="input_box" placeholder="Password" Required>
+   <div class="icon"><i class="fab fa-lock"></i></div>
+   <div class="option_div">
+    <input type="checkbox" class="check_box"><span>Remember me?</span>
+    <a href="#">Forgot password?</a>
+   </div>
+   <button type="submit">Login</button>
+   <div class="login_div">
+    Not a member? <a href="#">Signup</a>
+   </div>
+  </form>
+ </div>
+  
   <!-- Project -->
   <script src="main.js"></script>
 </body>
